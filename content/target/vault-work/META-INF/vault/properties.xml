@@ -4,9 +4,9 @@
 <comment>AEM Training Package</comment>
 <entry key="createdBy">shashi</entry>
 <entry key="name">aem-training-content</entry>
-<entry key="created">2016-06-11T07:50:54.516+0530</entry>
+<entry key="created">2016-06-13T17:50:26.146+0530</entry>
 <entry key="groupId">com.sky.training</entry>
-<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="version">1.1</entry>
 <entry key="requiresRoot">false</entry>
 <entry key="group">Sky Inc</entry>
 <entry key="description">Maven Multimodule project for AEM Training.</entry>
