@@ -1,66 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sky.training.SimpleUnitTest" time="0.003" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="com.sky.training.SimpleUnitTest" time="0.002" tests="1" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib"/>
-    <property name="java.vm.version" value="25.92-b14"/>
-    <property name="user.country.format" value="GB"/>
-    <property name="gopherProxySet" value="false"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/shashi/Desktop/aem-training"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=":"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.country" value="US"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="aem-test01"/>
+    <property name="PWD" value="/usr/local/Cellar/tomcat/8.0.35/libexec/webapps"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value="unknown"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/shashi/Desktop/aem-training"/>
-    <property name="java.runtime.version" value="1.8.0_92-b14"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/endorsed"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="java.io.tmpdir" value="/var/folders/t5/638gth2j25l579bffnmh43800000gn/T/"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/shashi/.jenkins"/>
+    <property name="PATH" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home//bin:/Users/shashi/google-cloud-sdk/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/shashi/.rvm/bin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="f8576c7e01d8487b"/>
+    <property name="POM_ARTIFACTID" value="aem-training"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.3.9/libexec/bin/m2.conf"/>
+    <property name="TERM_PROGRAM" value="iTerm.app"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="TERM_SESSION_ID" value="w0t0p1:ADD76D1D-B876-49C9-AF0A-9C5B0086C945"/>
+    <property name="COLORFGBG" value="7;0"/>
+    <property name="user.country.format" value="GB"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="AEM Training - Reactor Project"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.8.0_92-b14"/>
+    <property name="rvm_version" value="1.26.11 (latest)"/>
+    <property name="user.name" value="shashi"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="extractor.used" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="aem-test01"/>
+    <property name="BUILD_DISPLAY_NAME" value="#3"/>
+    <property name="TMPDIR" value="/var/folders/t5/638gth2j25l579bffnmh43800000gn/T/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="dfa0b8bc3d84111f71809c6a811c13930cd4a095"/>
+    <property name="rvm_prefix" value="/Users/shashi"/>
+    <property name="java.version" value="1.8.0_92"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="RELEASE_SCM_BRANCH" value="REL-BRANCH-aem-training-1.0"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="3"/>
+    <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/shashi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.11.4"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="user.home" value="/Users/shashi"/>
-    <property name="user.timezone" value="Asia/Kolkata"/>
-    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="user.name" value="shashi"/>
-    <property name="java.class.path" value="/usr/local/Cellar/maven/3.3.9/libexec/boot/plexus-classworlds-2.5.2.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.arch.data.model" value="64"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_92"/>
-    <property name="java.ext.dirs" value="/Users/shashi/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
-    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/classes"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/usr/local/Cellar/maven/3.3.9/libexec"/>
-    <property name="file.separator" value="/"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="os.version" value="10.11.4"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.92-b14"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="dfa0b8bc3d84111f71809c6a811c13930cd4a095"/>
+    <property name="SHLVL" value="2"/>
+    <property name="_" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/bin/java"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="shashi"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="POM_PACKAGING" value="pom"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="sun.cpu.isalist" value=""/>
+    <property name="HOME" value="/Users/shashi"/>
+    <property name="POM_GROUPID" value="com.sky.training"/>
+    <property name="user.home" value="/Users/shashi"/>
+    <property name="BUILD_TAG" value="jenkins-aem-test01-3"/>
+    <property name="JENKINS_SERVER_COOKIE" value="f8576c7e01d8487b"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/jenkins/"/>
+    <property name="XPC_SERVICE_NAME" value="0"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="/Users/shashi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="_system_arch" value="x86_64"/>
+    <property name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.9y80JdXQcn/Render"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="_system_version" value="10.11"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.3.9/libexec"/>
+    <property name="java.class.path" value="/Users/shashi/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-agent-1.5.jar:/usr/local/Cellar/maven/3.3.9/libexec/boot/plexus-classworlds-2.5.2.jar:/usr/local/Cellar/maven/3.3.9/libexec/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main /usr/local/Cellar/maven/3.3.9/libexec /usr/local/Cellar/tomcat/8.0.35/libexec/webapps/jenkins/WEB-INF/lib/remoting-2.59.jar /Users/shashi/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar /Users/shashi/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar 51791"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home//bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/usr/local/Cellar/maven/3.3.9/libexec"/>
+    <property name="java.io.tmpdir" value="/var/folders/t5/638gth2j25l579bffnmh43800000gn/T/"/>
+    <property name="HUDSON_HOME" value="/Users/shashi/.jenkins"/>
+    <property name="PATH+MAVEN" value="/usr/local/Cellar/maven/3.3.9/libexec/bin"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/jenkins/job/aem-test01/3/"/>
+    <property name="buildInfoConfig.propertiesFile" value="/usr/local/Cellar/tomcat/8.0.35/libexec/temp/buildInfo4866355887137830130.properties"/>
+    <property name="ITERM_PROFILE" value="Default"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.FcDxTCSnD3/Listeners"/>
+    <property name="rvm_path" value="/Users/shashi/.rvm"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="rvm_bin_path" value="/Users/shashi/.rvm/bin"/>
+    <property name="_system_type" value="Darwin"/>
+    <property name="java.ext.dirs" value="/Users/shashi/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
+    <property name="user.dir" value="/Users/shashi/.jenkins/jobs/aem-test01/workspace"/>
+    <property name="JOB_URL" value="http://localhost:8080/jenkins/job/aem-test01/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="/usr/local/Cellar/maven/3.3.9/libexec"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="3"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/jenkins/"/>
+    <property name="TERM_PROGRAM_VERSION" value="3.0.0"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="ITERM_SESSION_ID" value="w0t0p1:ADD76D1D-B876-49C9-AF0A-9C5B0086C945"/>
+    <property name="_system_name" value="OSX"/>
+    <property name="GIT_COMMIT" value="dfa0b8bc3d84111f71809c6a811c13930cd4a095"/>
+    <property name="RELEASE_SCM_TAG" value="aem-training-1.0"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="LANG" value="en_GB.UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/shashi/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar"/>
+    <property name="WORKSPACE" value="/Users/shashi/.jenkins/jobs/aem-test01/workspace"/>
+    <property name="maven3.interceptor.common" value="/Users/shashi/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar"/>
+    <property name="CLICOLOR" value="1"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="USER" value="shashi"/>
+    <property name="GIT_URL" value="https://github.com/sky-kshatriyan/aem-training.git"/>
+    <property name="JAVA_MAIN_CLASS_3022" value="org.apache.catalina.startup.Bootstrap"/>
   </properties>
-  <testcase name="someTest" classname="com.sky.training.SimpleUnitTest" time="0.003"/>
+  <testcase name="someTest" classname="com.sky.training.SimpleUnitTest" time="0.002"/>
 </testsuite>

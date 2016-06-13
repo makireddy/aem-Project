@@ -7,7 +7,7 @@
 
     <groupId>com.sky.training</groupId>
     <artifactId>aem-training</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>pom</packaging>
 
     <name>AEM Training - Reactor Project</name>
@@ -208,7 +208,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore/>
+                                        <ignore />
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
