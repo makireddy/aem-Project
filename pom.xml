@@ -7,7 +7,7 @@
 
     <groupId>com.sky.training</groupId>
     <artifactId>aem-training</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>AEM Training - Reactor Project</name>
